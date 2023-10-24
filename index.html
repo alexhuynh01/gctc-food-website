@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/bootstrap-5.3.2-dist/css/bootstrap.min.css">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Trang Chủ</title>
 </head>
+
 <body>
     <!-- Đây là header -->
     <header>
@@ -53,33 +56,35 @@
                 </div>
             </div>
         </div>
-        <!-- Đây là bg title -->
-        <div class="bg-title">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="https://static.kfcvietnam.com.vn/images/content/home/carousel/lg/GaQueKem.webp?v=gk7xvg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="https://static.kfcvietnam.com.vn/images/content/home/carousel/lg/1KFC80.webp?v=gk7xvg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="https://static.kfcvietnam.com.vn/images/content/home/carousel/lg/combo-dinner.webp?v=gk7xvg" class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-          <!-- End Bg title -->
     </header>
     <!-- End header -->
+    <!-- Đây là bg title -->
+    <section class="bg-title">
+       <div class="bg-title">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://static.kfcvietnam.com.vn/images/content/home/carousel/lg/GaQueKem.webp?v=gk7xvg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://static.kfcvietnam.com.vn/images/content/home/carousel/lg/1KFC80.webp?v=gk7xvg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://static.kfcvietnam.com.vn/images/content/home/carousel/lg/combo-dinner.webp?v=gk7xvg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- End Bg title -->
     <section class="content">
       <br>
       <br>
@@ -130,9 +135,6 @@
             </div>
           </div>
         </div>
-
-
-
     </section>
 
 
@@ -146,7 +148,7 @@
 
 
 
-
+    <!-- footer -->
     <footer class="bg-dark text-secondary">
         <!-- Grid container -->
         <div class="container p-4">
@@ -154,7 +156,7 @@
           <div class="row">
             <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Footer Content</h5>
+              <h5 class="text-uppercase text-white">Gà con tập code food</h5>
     
               <p>
                 GIỚI THIỆU
@@ -164,41 +166,67 @@
     
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Danh mục món ăn</h5>
+              <h5 class="text-uppercase text-white">Danh mục món ăn</h5>
     
               <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-white">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 4</a>
-                </li>
+
+                <div class="text-footer">
+                  <a href="#" style="text-decoration: none; color: inherit;">
+                    Link 1
+                  </a>
+                </div>
+                
+                <div class="text-footer">
+                  <a href="#" style="text-decoration: none; color: inherit;">
+                    Link 1
+                  </a>
+                </div>
+                
+                <div class="text-footer">
+                  <a href="#" style="text-decoration: none; color: inherit;">
+                    Link 1
+                  </a>
+                </div>
+                
+                <div class="text-footer">
+                  <a href="#" style="text-decoration: none; color: inherit;">
+                    Link 1
+                  </a>
+                </div>
+
               </ul>
             </div>
             <!--Grid column-->
     
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase mb-0">Chính sách</h5>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!" class="text-white">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 4</a>
-                </li>
+              <h5 class="text-uppercase text-white">chính sách</h5>
+              <ul class="list-unstyled mb-0">
+
+                <div class="text-footer">
+                  <a href="#" style="text-decoration: none; color: inherit;">
+                    Link 1
+                  </a>
+                </div>
+                
+                <div class="text-footer">
+                  <a href="#" style="text-decoration: none; color: inherit;">
+                    Link 1
+                  </a>
+                </div>
+                
+                <div class="text-footer">
+                  <a href="#" style="text-decoration: none; color: inherit;">
+                    Link 1
+                  </a>
+                </div>
+                
+                <div class="text-footer">
+                  <a href="#" style="text-decoration: none; color: inherit;">
+                    Link 1
+                  </a>
+                </div>
+
               </ul>
             </div>
             <!--Grid column-->
@@ -214,7 +242,7 @@
         </div>
         <!-- Copyright -->
       </footer>
-
+      <!-- end footer -->
 
     <script src="/assets/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
 </body>
