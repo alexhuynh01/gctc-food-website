@@ -106,3 +106,16 @@ button {
     transform: translateY(0);
    }
    
+   header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background-color: white;
+    z-index: 100;
+    
+   }
+   body{
+    margin-top: 120px;
+   }
